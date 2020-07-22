@@ -13,8 +13,22 @@ head(Act_Mon,3, echo = TRUE)
 ```
 
 
-## What is mean total number of steps taken per day?
+## The data shows the mean total number of steps taken per day:
 
+```{r}
+It2 <- Act_Mon$interval
+mean(It2)
+
+```
+
+## The histogram will show the total number of steps taken per day.  and the summary will display the mean and median of the data.
+
+```{r}
+It2 <- Act_Mon$interval
+
+hist(It2)
+
+```
 
 
 ## What is the average daily activity pattern?
