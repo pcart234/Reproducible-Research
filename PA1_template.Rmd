@@ -29,6 +29,13 @@ It2 <- Act_Mon$interval
 hist(It2)
 
 ```
+## The summary function will display the mean and median of the data.
+
+```{r}
+It2 <- Act_Mon$interval
+
+summary(It2)
+```
 
 
 ## What is the average daily activity pattern?
